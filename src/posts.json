@@ -36,7 +36,7 @@
     },
 
     "times": [
-        {"show":0, "hide":5},
+        {"show":0,"hide":5},
         {"show":0,"hide":20},
         {"show":0,"hide":35},
         {"show":0,"hide":50},
@@ -59,10 +59,13 @@
     ],
 
     "compose_times": [
-        {"show":0, "hide":5},
-        {"show":0,"hide":10},
-        {"show":0,"hide":15}
+        {"show":0,"hide":15},
+        {"show":0,"hide":35},
+        {"show":0,"hide":55},
+        {"show":15,"hide":60}
     ],
+    "userPostHide": 60,
+}
 
-    "userPostHide": 20
+    "compose_posts_persist_until_submit": false
 }
