@@ -61,7 +61,7 @@ table {
     transition: transform 3s ease;
  }
 
- .LikeButton {
+.LikeButton {
     margin-right: -10px;
     margin-bottom: 5px;
  }
