@@ -76,7 +76,7 @@ class PostView extends React.Component {
                 <Question question={this.props.questions[this.topic]}></Question>
               </div>
             : null}
-          
+            { this.props.newPost ? <Post {...this.props.newPost} /> : null }
             <div className="posts">
                 { this.state.currentPosts.map((data) => {
                   return (
@@ -84,9 +84,6 @@ class PostView extends React.Component {
                   );
                 }) }
             </div>
-
-            { this.props.newPost ? <Post {...this.props.newPost} /> : null }
-
         </div>
       );
     };
