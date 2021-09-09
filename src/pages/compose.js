@@ -67,7 +67,7 @@ class ComposeView extends React.Component {
                             <PostView 
                                 questions={null}
                                 user={this.state.user} 
-                                persist={!this.state.newPost ? true : this.props.persist}
+                                persist={this.props.compose_posts_persist_until_submit && !this.state.newPost ? true : this.props.persist}
                                 users={this.props.compose_users}
                                 posts={{"veggie": this.props.compose_posts, "surveillance": this.props.compose_posts}}
                                 times={this.props.compose_times}
