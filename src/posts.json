@@ -64,8 +64,8 @@
         {"show":0,"hide":55},
         {"show":15,"hide":60}
     ],
+
     "userPostHide": 60,
-}
 
     "compose_posts_persist_until_submit": false
 }
